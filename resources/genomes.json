@@ -1,5 +1,21 @@
 [
   {
+    "id": "Tcas5.2",
+    "name": "Tribolium castaneum",
+    "fastaURL": "https://sl-analytics-genomes.s3.eu-central-1.amazonaws.com/Tcas5.2/Tcas5.2_genomic.fna",
+    "indexURL": "https://sl-analytics-genomes.s3.eu-central-1.amazonaws.com/Tcas5.2/Tcas5.2_genomic.fna.fai",
+    "tracks": [
+      {
+      "type": "annotation",
+      "format": "gff",
+      "url": "https://sl-analytics-genomes.s3.eu-central-1.amazonaws.com/Tcas5.2/Tcas5.2_genomic.gff",
+      "indexed": false,
+      "name": "GENE",
+      "visibilityWindow": 20000000
+    }
+    ]
+  },
+  {
     "id": "chm13v2.0",
     "name": "Human (T2T CHM13-v2.0)",
     "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa",
