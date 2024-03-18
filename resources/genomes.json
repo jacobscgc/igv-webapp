@@ -7,10 +7,21 @@
     "tracks": [
       {
       "type": "annotation",
-      "format": "gff",
+      "format": "gff3",
       "url": "https://sl-analytics-genomes.s3.eu-central-1.amazonaws.com/Tcas5.2/Tcas5.2_genomic.gff",
       "indexed": false,
-      "name": "GENE",
+      "name": "NCBI",
+      "nameField": "Name",
+      "visibilityWindow": 20000000
+    },
+      {
+      "type": "annotation",
+      "format": "gff3",
+      "url": "https://sl-analytics-genomes.s3.eu-central-1.amazonaws.com/Tcas5.2/OGS3.gff",
+      "indexed": false,
+      "name": "OGS3",
+      "color": "#32a852",
+      "nameField": "Name",
       "visibilityWindow": 20000000
     }
     ]
